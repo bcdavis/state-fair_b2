@@ -9,8 +9,8 @@ eventHub.addEventListener("click", event => {
         console.log("I want a ticket to ride!");
         const rideEvent = new CustomEvent("rideTicketPurchased", {
             detail: {
-                ticketType: "ride", // not necessary
-                ticketQuantity: 1 // maybe alter this later
+                //ticketType: "ride", // not necessary
+                ticketQuantity: 1 // number of tickets in this purchase
             }
         })
         eventHub.dispatchEvent(rideEvent)
@@ -24,8 +24,8 @@ eventHub.addEventListener("click", event => {
         console.log("I want a ticket to eat!");
         const foodEvent = new CustomEvent("foodTicketPurchased", {
             detail: {
-                ticketType: "food", // not necessary
-                ticketQuantity: 1 // maybe alter this later
+                //ticketType: "food", // not necessary
+                ticketQuantity: 1 // number of tickets in this purchase
             }
         })
         eventHub.dispatchEvent(foodEvent)
@@ -39,8 +39,8 @@ eventHub.addEventListener("click", event => {
         console.log("I want a ticket to play a game!");
         const gameEvent = new CustomEvent("gameTicketPurchased", {
             detail: {
-                ticketType: "game", // not necessary
-                ticketQuantity: 1 // maybe alter this later
+                //ticketType: "game", // not necessary
+                ticketQuantity: 1 // number of tickets in this purchase
             }
         })
         eventHub.dispatchEvent(gameEvent)
@@ -54,8 +54,8 @@ eventHub.addEventListener("click", event => {
         console.log("I want a ticket to see a sideshow!");
         const sideshowEvent = new CustomEvent("sideshowTicketPurchased", {
             detail: {
-                ticketType: "sideshow", // not necessary
-                ticketQuantity: 1 // maybe alter this later
+                //ticketType: "sideshow", // not necessary
+                ticketQuantity: 1 // number of tickets in this purchase
             }
         })
         eventHub.dispatchEvent(sideshowEvent)
@@ -69,8 +69,8 @@ eventHub.addEventListener("click", event => {
         console.log("I want a ticket to do everything!");
         const fullPkgEvent = new CustomEvent("fullPkgTicketPurchased", {
             detail: {
-                ticketType: "fullPackage", // not necessary
-                ticketQuantity: 1 // maybe alter this later
+                //ticketType: "fullPackage", // not actually necessary
+                ticketQuantity: 1 // number of tickets in this purchase
             }
         })
         eventHub.dispatchEvent(fullPkgEvent)
