@@ -30,14 +30,14 @@ export const SideshowTicketHolders = (colorClass) => {
 
 
 // ------------------- method 3 --------------------
-// listen for game button event
-eventHub.addEventListener("gameTicketPurchased", clickEvent => {
-    GameTicketHolders();
+// listen for sideshow button event
+eventHub.addEventListener("sideshowTicketPurchased", clickEvent => {
+    SideshowTicketHolders();
 })
 
-export const GameTicketHolders = () => {
+export const SideshowTicketHolders = () => {
     contentTarget.innerHTML += `
-        <div class="person player"></div>
+        <div class="person gawker"></div>
     `
 }
 // -------------------------------------------------

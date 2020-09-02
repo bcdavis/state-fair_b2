@@ -7,8 +7,9 @@ import { GameTicketHolders } from "./games/GameTicketHolder.js"
 import { SideshowTicketHolders } from "./sideshows/SideshowTicketHolder.js"
 // import "./fullPackage/FullPkgTicketDistributor.js" // ---- method 2 ----
 import { FullPkgTicketHolders } from "./fullPackage/FullPkgTicketDistributor.js" // ---- method 3 ----
+import { ShowTicketTotal } from "./TicketCounter.js"
 import { TicketBooth } from "./TicketBooth.js"
 
-
+ShowTicketTotal();
 TicketBooth();
 

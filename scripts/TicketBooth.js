@@ -1,7 +1,4 @@
 
-//import { FoodTicketHolders } from "./food/FoodTicketHolder.js"
-//import { RideTicketHolders } from "./rides/RideTicketHolder.js"
-
 const contentTarget = document.querySelector(".entry")
 const eventHub = document.getElementById("state-fair")
 
